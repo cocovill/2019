@@ -21,7 +21,7 @@ html, body{
 .header_menu>ul>li{
   display: inline;
   font-size: 90%;
-  padding-left: 3%;
+  padding-left: 2%;
 }
 .header_menu>ul>li>a{
   color: #dddddd;
