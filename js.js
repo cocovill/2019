@@ -1,10 +1,3 @@
-/*!
- * SimpleBanner v10. ~ Copyright (c) 2013 Hangun's World, http://hangunsworld.com/blog/
- * Released under MIT license, http://hangunsworld.com/license.txt
- */
-
-
-
 $(function(){
 	initSimpleBanner();
 });
