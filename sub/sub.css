@@ -135,9 +135,10 @@ html, body{
 
 
 .profile{
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .profile_bg{
+background-color: #2b2e33;
 }
 .download{
   position: relative;
