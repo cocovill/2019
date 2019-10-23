@@ -10,7 +10,7 @@ html, body{
 }
 .header_menu{
   text-align: left;
-  width: 833px;
+  width: 45%;
   height: 150px;
   float: left;
 }
@@ -20,7 +20,7 @@ html, body{
 }
 .header_menu>ul>li{
   display: inline;
-  font-size: 13px;
+  font-size: 90%;
   padding-left: 26px;
 }
 .header_menu>ul>li>a{
@@ -38,13 +38,13 @@ html, body{
 }
 .logo{
   text-align: center;
-  width: 232px;
+  width: 10%;
   height: 150px;
   float: left;
 }
 .search{
   text-align: right;
-  width: 835px;
+  width: 45%;
   height: 150px;
   float: right;
 }
