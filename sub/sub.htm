@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr" />
+	<meta name="author" content="Hangun's World" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+	<title>Portfolio_MORE</title>
+	<link rel="stylesheet" href="sub.css">
+	<!--<script type="text/javascript" src="sub.js"></script>-->
+	<script type="text/Javascript">
+<!--
+/* 이미지 크기에 맞게 새창 열기*/
+var imgObj = new Image();
+function showImgWin(imgName) {
+  imgObj.src = imgName;
+  setTimeout("createImgWin(imgObj)", 100);
+}
+function createImgWin(imgObj) {
+  if (! imgObj.complete) {
+    setTimeout("createImgWin(imgObj)", 100);
+    return;
+  }
+  imgwin = window.open("", "imageWin","width=" + imgObj.width + ",height=" + imgObj.height);
+  imgwin.document.write("<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>");
+  imgwin.document.write("<html><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8' />"); // euc-kr? utf-8?
+  imgwin.document.write("<title>큰이미지</title>");  // 새창 페이지 제목
+  imgwin.document.write("</head><body style='margin:0px;padding:0px'>");
+  imgwin.document.write("<img src='" + imgObj.src + "' style='cursor:pointer; border: 1px solid #DDDDDD;' onclick='self.close();' alt='이미지를 클릭하시면 창이 닫힙니다.' />");
+  imgwin.document.write("</body><html>");
+  imgwin.document.title = imgObj.src;
+}
+//-->
+	</script>
+
+
+</head>
+<body>
+	<div class="header">
+		<a name="a"></a>
+		<div class="header_menu">
+			<ul>
+				<li><a href="../index.htm">MAIN</a></li>
+				<li><a href="#b">PORTFOLIO</a></li>
+				<li><a href="#e">PROFILE</a></li>
+				<li><a href="#c">CONTACT</a></li>
+				<li><a href="#d">COMMUNICATION</a></li>
+				<li><a href="tel:010-9556-4850">PHONE CALL</a></li>
+
+			</ul>
+		</div>
+		<div class="logo">
+			<a href="../index.htm"><img src="img/logo.png"></a>
+		</div>
+		<div class="search">
+			<div class="middle">
+				<a href="https://www.google.co.kr/"><img src="img/search.png"></a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="box1">
+		<div class="more">
+			<a name="b"></a>
+			<a href="#"><img src="img/more.png"></a>
+		</div>
+
+		<div class="column_box1">
+			<div class="column01">
+				<a href="https://blog.naver.com/skybyedamone0715"><img src="img/img1_1.png"></a>
+			</div>
+			<div class="column01">
+				<a href="https://blog.naver.com/jungyong0521"><img src="img/img1_2.png"></a>
+			</div>
+		</div>
+		<div class="column_box2">
+			<div class="column02">
+				<a href="img2_1full.htm"><img src="img/img2_1.png"></a>
+			</div>
+			<div class="column02">
+				<a href="img2_2full.htm"><img src="img/img2_2.png"></a>
+			</div>
+			<div class="column02">
+				<a href="img2_3full.htm"><img src="img/img2_3.png"></a>
+			</div>
+		</div>
+		<div class="column_box3">
+			<div class="column03">
+				<a href="javascript:showImgWin('img/img3_1_1.png')"><img src="img/img3_1.png"></a>
+			</div>
+			<div class="column03">
+				<a href="javascript:showImgWin('img/img3_2_1.jpg')"><img src="img/img3_2.png"></a>
+			</div>
+			<div class="column03">
+				<a href="javascript:showImgWin('img/img3_3_1.jpg')"><img src="img/img3_3.png"></a>
+			</div>
+		</div>
+		<div class="column_box4">
+			<div class="column04">
+				<a href="javascript:showImgWin('img/img4_1_1.jpg')"><img src="img/img4_1.png"></a>
+			</div>
+			<div class="column04">
+				<a href="javascript:showImgWin('img/img4_2_1.jpg')"><img src="img/img4_2.png"></a>
+			</div>
+			<div class="column04">
+				<a href="javascript:showImgWin('img/img4_3_1.png')"><img src="img/img4_3.png"></a>
+			</div>
+		</div>
+		<div class="profile">
+			<a name="e"></a>
+			<div class="profile_bg"><img src="img/profile.jpg"></div>
+			<div class="download">
+				<a href="profile_download.docx">
+					<img src="img/download.png">
+				</a>
+			</div>
+		</div>
+		<div class="contact">
+			<a name="c"></a>
+			<div><img src="img/contact1.png"></div>
+			<div>
+				<a href="tel:010-9556-4850">
+					<img src="img/contact2.png">
+				</a>
+			</div>
+			<div><img src="img/contact3.png"></div>
+			<div class="sns">
+				<a name="d"></a>
+				<a href="https://blog.naver.com/skybyedamone0715"><img src="img/blog.png"></a>
+				<a href="https://open.kakao.com/o/sg9Jr8Hb"><img src="img/kakao.png"></a>
+				<a href="https://www.instagram.com/bambin2ooo/"><img src="img/insta.png"></a>
+				<a href="https://www.facebook.com/people/%EC%A1%B0%EA%B2%BD%ED%99%94/100011496224001"><img src="img/facebook.png"></a>
+			</div>
+		</div>
+		<div class="copy">
+			<img src="img/copy.png">
+		</div>
+	</div>
+</body>
+</html>
