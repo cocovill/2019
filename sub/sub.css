@@ -171,11 +171,14 @@ background-color: #2b2e33;
   .column_box1{width: 0px; height: 0px;padding-top: 0px;}
   .column01>a>img{display: none;}
   .column_box2{width: 100%; height: 100%; column-count: 1;}
-  .column02{margin-top: 10px;}
+  .column02{margin-top: 10px; width: 80%; height: 80%;}
+  .column02>a>img{width: 80%; height: 80%;}
   .column_box3{width: 100%; height: 100%; column-count: 1;padding-top: 0px;}
-  .column03{margin-top: 10px;}
+  .column03{margin-top: 10px; width: 80%; height: 80%;}
+  .column03>a>img{width: 80%; height: 80%;}
   .column_box4{width: 100%; height: 100%; column-count: 1;padding-top: 0px;}
-  .column04{margin-top: 10px;}
+  .column04{margin-top: 10px; width: 80%; height: 80%;}
+  .column04>a>img{width: 80%; height: 80%;}
 }
 @media(min-width: 901px){
   .header_menu>img{display: none;}
