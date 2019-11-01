@@ -157,7 +157,7 @@ background-color: #2b2e33;
   .header{height: 100px;}
   .header_menu{height: 100px; width: 35%;}
   .header_menu>ul{display: none;}
-  .header_menu>img{margin-left: 35px; margin-top: 35px;}
+  .header_menu>a>img{margin-left: 35px; margin-top: 35px;}
   .logo{ width: 30%; height: 100px;}
   .logo>a{margin: 0 auto;}
   .logo>a>img{width: 139px; height: 90px;}
@@ -181,7 +181,7 @@ background-color: #2b2e33;
   .column04>a>img{width: 80%; height: 80%;}
 }
 @media(min-width: 901px){
-  .header_menu>img{display: none;}
+  .header_menu>a>img{display: none;}
   .search>a>img{display: none;}
 
   .profile_m>img{display: none;}
