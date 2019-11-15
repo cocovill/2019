@@ -71,6 +71,21 @@ html, body{
 }
 
 
+.column_box0{
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 1300px;
+  height: 360px;
+  column-count: 2;
+}
+.column00{
+  margin: 0 auto;
+  width: 620px;
+  height: 360px;
+}
+.column00>a>img{
+  box-shadow: 2px 2px 10px #ccc;
+}
 .column_box1{
   margin: 0 auto;
   padding-top: 60px;
